@@ -3,14 +3,14 @@
 # Install Docker
 
 ```bash
-docker run --rm -ti ophigeni/raw:latest
+docker run --rm -ti ophigeni/rawbuntu:24.04
 ```
 
 ```bash
-docker run --rm -ti ophigeni/raw:xfce
+docker run --rm -ti ophigeni/rawbuntu:22.04
 ```
 ```
-docker run --rm -ti ophigeni/raw:mate
+docker run --rm -ti ophigeni/rawbuntu:20.04
 ```
 
 # Quick Shoot

@@ -18,6 +18,6 @@ source venv/bin/activate
 
 pip install selenium webdriver-manager
 
-cp /seleferry/*.py /seleferry/tests/
-cp /seleferry/*.txt /seleferry/tests/
+cp /seleferry/*.py /selebul/tests/
+cp /seleferry/*.txt /selebul/tests/
 

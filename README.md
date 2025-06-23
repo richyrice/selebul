@@ -43,7 +43,9 @@ bash 1.txt
 
 # Tips
 
-edit file text with: nano 1.txt
+hapus file rm 1.py atau rm -f 1.py
+
+buat dan edit file text sekaligus  with: nano 1.py
 
 quit from ENV: deactivate
 

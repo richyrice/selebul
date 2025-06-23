@@ -1,28 +1,4 @@
 
-apt update && apt install nano -y
-
-#touch 1.txt
-
-#nano 1.txt
-
-################################################
-
-DEBIAN_FRONTEND=noninteractive
-TZ=Europe/Minsk
-ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-
-apt update
-apt-get install -y \
-  lsb-core \
-  sudo \
-  apt-utils \
-  wget \
-  curl \
-  net-tools \
-  git
-
-apt-get clean
-rm -rf /var/cache/apt/archives/* /var/lib/apt/lists/*
 
 wget -nc https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
@@ -34,7 +10,7 @@ sudo apt install -f ./google-chrome-stable_current_amd64.deb -y
 
 cd tests
 
-apt-get install python3-venv -y
+sudo apt-get install python3-venv -y
 
 python3 -m venv venv
 

@@ -1,6 +1,6 @@
 # selebul
 
-# Install Docker
+# Install Docker Images
 
 ```bash
 docker run --rm -ti ophigeni/rawbuntu:24.04

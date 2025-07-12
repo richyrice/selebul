@@ -16,7 +16,7 @@ docker run --rm -ti ophigeni/rawbuntu:20.04
 # Quick Shoot
 
 ```
-apt-get update && apt-get install git -y && git clone https://github.com/ophigeni/selebul && cd selebul && bash install.txt && cd tests && source venv/bin/activate && bash 1.txt
+apt-get update && apt-get install git -y && git clone https://github.com/richyrice/selebul && cd selebul && bash install.txt && cd tests && source venv/bin/activate && bash 1.txt
 ```
 
 
@@ -27,7 +27,7 @@ apt-get update
 
 apt-get install git -y
 
-git clone https://github.com/ophigeni/selebul
+git clone https://github.com/richyrice/selebul
 
 cd selebul
 

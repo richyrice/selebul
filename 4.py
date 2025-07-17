@@ -36,7 +36,7 @@ def watch_link(url):
 
 
 
-link_to_watch = ["mjxZeyIYeNo"]
+link_to_watch = ["squHnNmmD9k"]
 
 
 time_to_watch = 1
